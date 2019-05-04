@@ -1,3 +1,5 @@
+import client.TimeClient;
+import org.testng.annotations.Test;
 import server.TimeServer;
 
 /*
@@ -9,11 +11,23 @@ import server.TimeServer;
 public class CoreTest {
 
 
-    public static void main(String[] args) {
-        try {
-            new TimeServer().bind(8080);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    @Test
+    public void startServer() throws Exception {
+        new TimeServer().bind(8080);
+
     }
+
+    @Test
+    public void startClient() throws Exception {
+        new TimeClient().connect(8080, "127.0.0.1");
+    }
+
+//    public static void main(String[] args) {
+//        try {
+//            new TimeServer().bind(8080);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+
 }

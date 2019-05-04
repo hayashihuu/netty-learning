@@ -17,7 +17,7 @@ import io.netty.handler.stream.ChunkedWriteHandler;
 public class WebSockChannelIniTializer extends ChannelInitializer<SocketChannel> {
 
     @Override
-    protected void initChannel(SocketChannel ch) throws Exception {
+    protected void initChannel(SocketChannel ch) {
         ChannelPipeline pipeline = ch.pipeline();
 
         pipeline.addLast(new HttpServerCodec())

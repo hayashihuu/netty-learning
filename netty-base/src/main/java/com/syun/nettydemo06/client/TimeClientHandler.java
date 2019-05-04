@@ -1,14 +1,11 @@
-package client;
+package com.syun.nettydemo06.client;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
-import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /*
  * @description:模拟粘包,拆包
@@ -18,7 +15,6 @@ import org.slf4j.LoggerFactory;
  */
 @Slf4j
 public class TimeClientHandler extends ChannelInboundHandlerAdapter {
-    private static final Logger LOGGER = LoggerFactory.getLogger(TimeClientHandler.class);
 
     private int counter;
 
@@ -31,7 +27,7 @@ public class TimeClientHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         ByteBuf message;
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 3; i++) {
                 message = Unpooled.buffer(req.length);
                 message.writeBytes(req);
                 ctx.writeAndFlush(message)
@@ -55,7 +51,7 @@ public class TimeClientHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-        LOGGER.warn("Unexcepted exception from downstream:" + cause.getMessage());
+        log.warn("Unexcepted exception from downstream:" + cause.getMessage());
         ctx.close();
     }
 }

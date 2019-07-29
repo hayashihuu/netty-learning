@@ -27,25 +27,25 @@ public class TimeClientHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         ByteBuf message;
-            for (int i = 0; i < 3; i++) {
-                message = Unpooled.buffer(req.length);
-                message.writeBytes(req);
-                ctx.writeAndFlush(message)
-                        .addListener((ChannelFutureListener) future -> {
-                            if (future.isSuccess()) {
-                                log.info("写入成功");
-                            } else {
-                                log.info("写入失败");
-                                future.cause().printStackTrace();
-                            }
-                        });
+        for (int i = 0; i < 3; i++) {
+            message = Unpooled.buffer(req.length);
+            message.writeBytes(req);
+            ctx.writeAndFlush(message)
+                    .addListener((ChannelFutureListener) future -> {
+                        if (future.isSuccess()) {
+                            log.info("写入成功");
+                        } else {
+                            log.info("写入失败");
+                            future.cause().printStackTrace();
+                        }
+                    });
         }
 
     }
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        String body = (String)msg;
+        String body = (String) msg;
         System.out.println("Now is:" + body + "; the counter is:" + ++counter);
     }
 

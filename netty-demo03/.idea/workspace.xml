@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb027b81-b80f-4d98-b257-e7b93f87698e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../netty-demo04/src/main/java/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-demo04/src/main/java/block/NettyOioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-demo04/src/main/java/block/PlainOioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-demo04/src/main/java/client/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-demo04/src/main/java/client/TimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-demo04/src/main/java/server/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-demo04/src/main/java/server/TimeServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/netty-learning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../netty-base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-base/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-base/netty-base.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-base/src/main/java/com/syun/nettydemo05/WebSockChannelIniTializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-base/src/main/java/com/syun/nettydemo05/WebSockChannelIniTializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo02/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/src/main/java/CoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo02/src/main/java/CoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/src/main/java/CoreTest02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/src/main/java/client/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo02/src/main/java/client/TimeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/src/main/java/client/TimeClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo02/src/main/java/client/TimeClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/src/main/java/server/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo02/src/main/java/server/TimeServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/target/classes/CoreTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/target/classes/CoreTest02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/target/classes/client/TimeClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/target/classes/client/TimeClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/target/classes/client/TimeClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/target/classes/server/TimeServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/target/classes/server/TimeServer$ChildChannelHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/target/classes/server/TimeServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo02/target/classes/server/TimeServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/EchoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/EchoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/EchoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/EchoServer02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/EchoServer02.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,22 +16,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+            <state relative-caret-position="1040">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,31 +39,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/string/StringDecoder.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/ChannelFuture.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="340">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/util/concurrent/Future.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestCore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestCore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="376">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServer02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+            <state relative-caret-position="520">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,10 +93,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/bootstrap/AbstractBootstrap.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="940">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServerHandler02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="440">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,10 +116,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="820">
+              <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1083#1674#0" expanded="true" />
+                <element signature="e#1673#1674#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/EchoClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="780">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,6 +238,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,6 +251,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestCore.testService02">
+  <component name="RunManager" selected="TestNG.TestCore.timeClientTest (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -291,11 +279,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCore.testService02 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="netty-demo03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCore" />
+      <option name="METHOD_NAME" value="testService02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCore.testService02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="nettydemo03" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCore" />
       <option name="METHOD_NAME" value="testService02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCore.timeClientTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="netty-demo03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCore" />
+      <option name="METHOD_NAME" value="timeClientTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -317,8 +331,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCore.timeServerTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="nettydemo03" />
+    <configuration name="TestCore.timeServerTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="netty-demo03" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCore" />
       <option name="METHOD_NAME" value="timeServerTest" />
@@ -340,15 +354,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestCore.timeServerTest" />
       <item itemvalue="TestNG.TestCore.timeClientTest" />
       <item itemvalue="TestNG.TestCore.testService02" />
+      <item itemvalue="TestNG.TestCore.timeServerTest (1)" />
+      <item itemvalue="TestNG.TestCore.timeClientTest (1)" />
+      <item itemvalue="TestNG.TestCore.testService02 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCore.timeClientTest (1)" />
+        <item itemvalue="TestNG.TestCore.testService02 (1)" />
+        <item itemvalue="TestNG.TestCore.timeServerTest (1)" />
         <item itemvalue="TestNG.TestCore.testService02" />
         <item itemvalue="TestNG.TestCore.timeClientTest" />
-        <item itemvalue="TestNG.TestCore.timeServerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -366,6 +384,9 @@
       <workItem from="1556958788364" duration="83000" />
       <workItem from="1556959633214" duration="181000" />
       <workItem from="1556961736520" duration="50000" />
+      <workItem from="1564123966834" duration="796000" />
+      <workItem from="1564362550662" duration="771000" />
+      <workItem from="1564367943924" duration="19000" />
     </task>
     <servers />
   </component>
@@ -382,15 +403,30 @@
     <history-entry file="TestCore_testService02 - 2018.09.12 at 15h 35m 36s.xml">
       <configuration name="TestCore.testService02" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestCore_timeServerTest_(1) - 2019.07.29 at 09h 13m 06s.xml">
+      <configuration name="TestCore.timeServerTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCore_timeClientTest_(1) - 2019.07.29 at 09h 14m 47s.xml">
+      <configuration name="TestCore.timeClientTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCore_timeServerTest_(1) - 2019.07.29 at 09h 14m 47s.xml">
+      <configuration name="TestCore.timeServerTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCore_timeClientTest_(1) - 2019.07.29 at 09h 15m 47s.xml">
+      <configuration name="TestCore.timeClientTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCore_testService02_(1) - 2019.07.29 at 09h 15m 47s.xml">
+      <configuration name="TestCore.testService02 (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3223000" />
+    <option name="totallyTimeSpent" value="4809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19369973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -400,14 +436,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -484,30 +520,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServer02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        <state relative-caret-position="1040">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/EchoClientHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/ChannelFuture.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/util/concurrent/Future.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/bootstrap/AbstractBootstrap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServerHandler02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -516,8 +573,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="820">
+          <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1083#1674#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServer02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -526,28 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/EchoServerHandler02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="376">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
